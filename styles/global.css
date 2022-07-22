@@ -33,3 +33,35 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+
+section {
+    margin: 0 auto;
+    ::-webkit-slider-thumb: max-content;
+    text-align center;
+}
+
+#question-section {
+    display: grid;
+    justify-items: center;
+    padding: 20px;
+    gap: 20px;
+    background: #FDFD96;
+    border: 1px soild black;
+}
+
+textarea{
+    width: 250px;
+    height: 100px;
+    resize: vertical;
+}
+
+hidden{
+    display: none;
+}
+
+#answer-display {
+    grid-row: 2;
+    grid-column: 1;
+    
+}
